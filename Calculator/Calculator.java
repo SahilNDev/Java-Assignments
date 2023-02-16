@@ -7,7 +7,7 @@ public class Calculator{
 		result[0] = numbers[0] + numbers[1];
 		return result;
 	}
-	//This is the function for subtractiong two numbers
+	//This is the function for subtracting two numbers
 	public double[] subtractNum(double[] numbers){
 		result[0] = numbers[0] - numbers[1];
 		return result;
@@ -40,9 +40,9 @@ public class Calculator{
 		result[0] = var/numbers.length;
 		return result;
 	}
-	//This is the function for finding standard deviation of the numvers in the array
+	//This is the function for finding standard deviation of the numbers in the array
 	public double[] stdArr(double[] numbers){
-		//Standars Deviation = 	√(Variance)
+		//Standard Deviation = 	√(Variance)
 		result[0] = Math.pow(varArr(numbers)[0],0.5);
 		return result;
 	}
