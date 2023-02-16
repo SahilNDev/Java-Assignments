@@ -8,9 +8,11 @@ public class Main {
 		while(m==1) {
 			UserInput input = new UserInput();
 			Calculator calc = new Calculator();
+			//Let's user choose whter two numbers or more
 			System.out.println("Operations on two numbers or more(2/m):");
 			Scanner sc = new Scanner(System.in);
 			char choice = sc.next().charAt(0);
+			//If two numbers then lets user choose between addNum(), subtractNum(), multiplyNum(), divideNum() functions.
 			if(choice == '2') {
 				numbers = input.inputTwoNumbers();
 				System.out.println("First number is " + numbers[0]);
@@ -41,6 +43,7 @@ public class Main {
 					default:
 						System.out.println("wrong input");
 				}
+			// If moret han two two numbers, lets the user choose between addArr(), vasrArr(), stdArr() functions.
 			} else if(choice == 'm') {
 				array = input.inputMultipleNumbers();
 				System.out.println("Array Operations:");
@@ -65,6 +68,7 @@ public class Main {
 						System.out.println("Not a valid array operation");
 					}
 			}
+		// Asks user if to continue with the program or stop
 		System.out.println("Do you want to continue?(1/0)");
 		m = sc.nextInt();
 		}
