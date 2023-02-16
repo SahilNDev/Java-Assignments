@@ -16,3 +16,8 @@ Calculator.java contains seven functions:
 UserInput.java contains two functions:
 1. inputTwoNumbers(): This is a function used to input two numbers and return the two numbers in an array form.
 2. inputMultipleNumbers(): This is a function used to input an array of numbers where the size of the array is greater than 2.
+
+Main.java does the following funcitons:
+1. Sees whether the user needs to input two numbers or more.
+2. If two numbers, then does inputTwoNumbers() and lets the user choose any of the addNum(), subtractNum(), multiplyNum(), divideNum() functions.
+3. If more than two numbers, then does inputMultipleNumbers() and lets the user choos any of the addArr(), varArr(), stdArr() functions.
