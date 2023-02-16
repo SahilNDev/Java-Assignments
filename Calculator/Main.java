@@ -8,7 +8,7 @@ public class Main {
 		while(m==1) {
 			UserInput input = new UserInput();
 			Calculator calc = new Calculator();
-			//Let's user choose whter two numbers or more
+			//Let's user choose whether two numbers or more
 			System.out.println("Operations on two numbers or more(2/m):");
 			Scanner sc = new Scanner(System.in);
 			char choice = sc.next().charAt(0);
@@ -43,7 +43,7 @@ public class Main {
 					default:
 						System.out.println("wrong input");
 				}
-			// If moret han two two numbers, lets the user choose between addArr(), vasrArr(), stdArr() functions.
+			// If more than two numbers, lets the user choose between addArr(), vasrArr(), stdArr() functions.
 			} else if(choice == 'm') {
 				array = input.inputMultipleNumbers();
 				System.out.println("Array Operations:");
