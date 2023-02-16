@@ -14,4 +14,5 @@ Calculator.java contains seven functions:
 7. stdArr(): This is the function used to get the standard deviation of the numbers present in an arrat where size of the array is greater than 2.
 
 UserInput.java contains two functions:
-1. 
+1. inputTwoNumbers(): This is a function used to input two numbers and return the two numbers in an array form.
+2. inputMultipleNumbers(): This is a function used to input an array of numbers where the size of the array is greater than 2.
