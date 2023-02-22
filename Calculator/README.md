@@ -20,4 +20,4 @@ UserInput.java contains two functions:
 Main.java does the following funcitons:
 1. Sees whether the user needs to input two numbers or more.
 2. If two numbers, then does inputTwoNumbers() and lets the user choose any of the addNum(), subtractNum(), multiplyNum(), divideNum() functions.
-3. If more than two numbers, then does inputMultipleNumbers() and lets the user choos any of the addArr(), varArr(), stdArr() functions.
+3. If more than two numbers, then does inputMultipleNumbers() and lets the user choose any of the addArr(), varArr(), stdArr() functions.
