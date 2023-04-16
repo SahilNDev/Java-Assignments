@@ -10,3 +10,5 @@ Assignment 3: Student Database
 Assignment 4: Deck of Cards
 
 Assignment 5: Shape
+
+Assignment 6: Duck Behavior
