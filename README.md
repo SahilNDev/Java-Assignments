@@ -12,3 +12,11 @@ Assignment 4: Deck of Cards
 Assignment 5: Shape
 
 Assignment 6: Duck Behavior
+
+Assignment 7: Rational Numbers
+
+Assignment 8: Exception Handling
+
+Assignmnet 9: Database Connectivity
+
+Assignment 10: Thread
